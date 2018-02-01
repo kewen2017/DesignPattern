@@ -33,6 +33,13 @@ public class SingletonDoubleCheck
 
 	protected void method()
 	{
-		System.out.println("SingletonInner");
+		System.out.println("SingletonDoubleCheck");
+	}
+	
+	/* 优点：延迟加载，线程安全 */
+	/* 缺点： 写法复杂，不简洁*/
+	public static void main(String[] args)
+	{
+		SingletonDoubleCheck.getInstance().method();
 	}
 }
