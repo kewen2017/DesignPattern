@@ -8,7 +8,7 @@ public class Singleton
 	/* 私有构造方法，防止被实例化 */
 	private Singleton()
 	{
-
+		//test
 	}
 
 	/* 1:懒汉式，静态工程方法，创建实例 */
