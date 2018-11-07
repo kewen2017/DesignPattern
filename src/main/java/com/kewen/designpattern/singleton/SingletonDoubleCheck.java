@@ -2,8 +2,7 @@ package com.kewen.designpattern.singleton;
 
 public class SingletonDoubleCheck
 {
-	private static volatile SingletonDoubleCheck sInst = null; // <<< 这里添加了
-																// volatile
+	private static volatile SingletonDoubleCheck sInst = null; // <<< 这里添加了volatile
 
 	/**
 	 * 私有的构造函数
