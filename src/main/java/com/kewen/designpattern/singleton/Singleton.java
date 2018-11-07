@@ -11,7 +11,7 @@ public class Singleton
 
 	}
 
-	/* 1:懒汉式，静态工程方法，创建实例 */
+	/* 1:懒汉式，静态工厂方法，创建实例 */
 	public static Singleton getInstance()
 	{
 		if (instance == null)

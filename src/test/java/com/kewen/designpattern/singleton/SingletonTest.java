@@ -1,10 +1,13 @@
 package com.kewen.designpattern.singleton;
 
-public class SingletonTest {  
+import org.junit.Test;
 
-	void singletonTest()
+public class SingletonTest {
+
+	@Test
+	public void method()
 	{
-		Singleton.getInstance().method();  
+		Singleton.getInstance().method();
 	}
 	
 } 

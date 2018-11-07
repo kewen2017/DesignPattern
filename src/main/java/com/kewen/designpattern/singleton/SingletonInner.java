@@ -12,7 +12,9 @@ public class SingletonInner {
     /** 
      * 私有的构造函数 
      */  
-    private SingletonInner() {}  
+    private SingletonInner() {
+
+    }
   
     public static SingletonInner getInstance() {  
         return SingletonHolder.instance;  
@@ -21,10 +23,5 @@ public class SingletonInner {
     protected void method() {  
         System.out.println("SingletonInner");  
     }  
-    
-	/* 优点：延迟加载，线程安全（java中class加载时互斥的），也减少了内存消耗，推荐使用内部类方式。 */
-	public static void main(String[] args)
-	{
-		SingletonInner.getInstance().method();
-	}
+
 }  
