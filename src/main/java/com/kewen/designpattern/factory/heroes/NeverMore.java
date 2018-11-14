@@ -2,6 +2,9 @@ package com.kewen.designpattern.factory.heroes;
 
 import com.kewen.designpattern.factory.Hero;
 
+/**
+ * 这就是具体的英雄A
+ */
 public class NeverMore implements Hero {
     @Override
     public String SkillOne()
